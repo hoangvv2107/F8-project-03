@@ -35,7 +35,7 @@ a {
 .btn {
   min-width: 205px;
   height: 60px;
-  padding: 0 14px;
+  padding: 0 16px;
   border-radius: 999px;
   background: var(--primary-color);
   cursor: pointer;
@@ -46,6 +46,9 @@ a {
   color: #fff;
   font-size: 1.8rem;
   font-weight: 400;
+}
+.btn:hover{
+  opacity: 0.9;
 }
 /* =====================header=====================*/
 .header {
