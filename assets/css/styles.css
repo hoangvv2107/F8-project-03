@@ -47,7 +47,7 @@ a {
   font-size: 1.8rem;
   font-weight: 400;
 }
-.btn:hover{
+.btn:hover {
   opacity: 0.9;
 }
 /* =====================header=====================*/
@@ -118,4 +118,65 @@ a {
   min-width: 104px;
   height: 44px;
   font-size: 1.6rem;
+}
+
+/* =====================main=====================*/
+
+/* hero */
+.hero {
+  background: #10375c;
+  padding-top: 64px;
+  padding-bottom: 110px;
+}
+.hero .container {
+  display: flex;
+  align-items: center;
+}
+.hero__content {
+  width: 44.18%;
+  flex-shrink: 0;
+}
+.hero__heading {
+  color: #fff;
+  font-size: 7rem;
+  font-weight: 600;
+  line-height: 114.286%;
+  letter-spacing: -1.4px;
+}
+.hero__desc {
+  margin-top: 22px;
+  color: #c9d2da;
+  font-size: 1.8rem;
+  line-height: 166.667%;
+}
+.hero__contact {
+  margin-top: 38px;
+  display: flex;
+  align-items: center;
+  gap: 38px;
+}
+.hero__phone {
+  color: #fff;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 166.667%;
+}
+.hero__media {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+.hero__img {
+  border-radius: 6px;
+  object-fit: cover;
+}
+.hero__img:first-child {
+  width: 330px;
+  height: 540px;
+  position: relative;
+  left: 6px;
+}
+.hero__img:last-child {
+  width: 210px;
+  height: 410px;
 }
