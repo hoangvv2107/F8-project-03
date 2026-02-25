@@ -50,6 +50,20 @@ a {
 .btn:hover {
   opacity: 0.9;
 }
+.title {
+  color: #10375c;
+  font-size: 5rem;
+  font-weight: 600;
+  line-height: 120%;
+  letter-spacing: -1px;
+}
+.desc {
+  margin-top: 18px;
+  width: 468px;
+  color: #575f66;
+  font-size: 1.8rem;
+  line-height: 166.667%;
+}
 /* =====================header=====================*/
 .header {
   background: #10375c;
@@ -179,4 +193,46 @@ a {
 .hero__img:last-child {
   width: 210px;
   height: 410px;
+}
+
+/* service */
+.service {
+  padding-top: 170px;
+  padding-bottom: 170px;
+}
+.service .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.service__content {
+  margin-top: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.service__img {
+  width: 570px;
+  height: 570px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+.service__item{
+  display: flex;
+  text-align: start;
+}
+.service__icon {
+  width: 60px;
+  height: 60px;
+  background-color: #eff6fd;
+  border-radius: 50%;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+.service__icon i {
+  font-size: 24px;
+  color: #10375c;
 }
