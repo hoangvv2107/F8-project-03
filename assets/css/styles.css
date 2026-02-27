@@ -426,7 +426,44 @@ a {
   font-size: 1.4rem;
   line-height: 185.714%;
 }
-.team .control{
+.team .control {
   margin-top: 38px;
   justify-content: center;
+}
+
+/* =====================download=====================*/
+.download {
+  padding-block: 95px 170px;
+}
+.download .container {
+  border-radius: 4px;
+  background: #2e80ce;
+  padding: 75px 70px;
+  position: relative;
+}
+.download__img {
+  width: 284px;
+  height: 522px;
+  object-fit: cover;
+  position: absolute;
+  bottom: 0;
+  left: 70px;
+}
+.download__content {
+  width: 586px;
+  margin-left: auto;
+}
+.download .title {
+  color: #fff;
+  width: 489px;
+}
+.download .desc {
+  color: #fff;
+  width: 100%;
+}
+.download__link{
+  margin-top: 38px;
+  display: flex;
+  gap: 28px;
+  align-items: center;
 }
