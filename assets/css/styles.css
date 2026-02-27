@@ -541,3 +541,36 @@ a {
 .news__link:hover {
   color: #2e80ce;
 }
+
+/* =====================Appointment=====================*/
+.appointment {
+  padding-bottom: 170px;
+}
+.appointment .container {
+  background: #f6fbff;
+  text-align: center;
+  padding-block: 100px;
+}
+.appointment__desc {
+  margin-top: 38px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 617px;
+  color: #575f66;
+  line-height: 175%;
+  position: relative;
+}
+.appointment__desc::before {
+  content: "";
+  display: block;
+  width: 136px;
+  height: 2px;
+  background: #2e80ce;
+  position: absolute;
+  top: -18px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.appointment .btn{
+  margin-top: 38px;
+}
