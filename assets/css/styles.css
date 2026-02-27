@@ -42,10 +42,10 @@ a {
   display: inline-flex;
   justify-content: center;
   align-items: center;
-
   color: #fff;
   font-size: 1.8rem;
   font-weight: 400;
+  transition: all ease 0.2s;
 }
 .btn:hover {
   opacity: 0.9;
@@ -63,6 +63,13 @@ a {
   color: #575f66;
   font-size: 1.8rem;
   line-height: 166.667%;
+}
+.line-clamp {
+  display: -webkit-box;
+  line-clamp: var(--line-clamp, 3);
+  -webkit-line-clamp: var(--line-clamp, 3);
+  overflow: hidden;
+  -webkit-box-orient: vertical;
 }
 /* =====================header=====================*/
 .header {
@@ -136,7 +143,7 @@ a {
 
 /* =====================main=====================*/
 
-/* hero */
+/* =====================hero=====================*/
 .hero {
   background: #10375c;
   padding-top: 64px;
@@ -195,7 +202,7 @@ a {
   height: 410px;
 }
 
-/* service */
+/* =====================service=====================*/
 .service {
   padding-top: 170px;
   padding-bottom: 170px;
@@ -231,6 +238,7 @@ a {
   border-radius: 10px;
   background: #fff;
   padding: 22px;
+  transition: all ease 0.2s;
 }
 .service__icon {
   width: 60px;
@@ -241,19 +249,16 @@ a {
   justify-content: center;
   align-items: center;
   flex-shrink: 0;
+  font-size: 24px;
+  color: #10375c;
+  transition: all ease 0.2s;
 }
 .service__item:hover {
   box-shadow: 0 14px 28px 0 rgba(0, 0, 0, 0.05);
 }
 .service__item:hover .service__icon {
   background: #2e80ce;
-}
-.service__item:hover .service__icon i {
   color: #fff;
-}
-.service__icon i {
-  font-size: 24px;
-  color: #10375c;
 }
 .service__info {
   margin-left: 19px;
@@ -268,6 +273,48 @@ a {
   color: #575f66;
   line-height: 175%;
 }
-.service__btn{
+.service__btn {
   margin-top: 55px;
+}
+
+/* =====================guides=====================*/
+.guides {
+  padding-block: 100px;
+  background: #f6fbff;
+}
+.guides__list {
+  margin-top: 86px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 30px;
+}
+.guides-item {
+  padding: 43px 42px;
+  border: 16px solid #eaf6ff;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  transition: all ease 0.2s;
+}
+.guides-item:hover {
+  border-color: #2e80ce;
+  transform: translateY(-16px);
+}
+.guides-item__title {
+  margin-top: 18px;
+  color: #10375c;
+  font-size: 2.6rem;
+  font-weight: 600;
+  line-height: 138.462%;
+}
+.guides-item__desc {
+  margin-top: 28px;
+  color: #575f66;
+  line-height: 175%;
+}
+.guides-item__more {
+  margin-top: 18px;
+  color: #2e80ce;
+  font-weight: 400;
+  line-height: 175%;
 }
