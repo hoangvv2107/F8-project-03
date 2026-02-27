@@ -219,9 +219,18 @@ a {
   object-fit: cover;
   border-radius: 12px;
 }
-.service__item{
+.service__list {
+  width: 40.17%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+.service__item {
   display: flex;
   text-align: start;
+  border-radius: 10px;
+  background: #fff;
+  padding: 22px;
 }
 .service__icon {
   width: 60px;
@@ -231,8 +240,34 @@ a {
   display: inline-flex;
   justify-content: center;
   align-items: center;
+  flex-shrink: 0;
+}
+.service__item:hover {
+  box-shadow: 0 14px 28px 0 rgba(0, 0, 0, 0.05);
+}
+.service__item:hover .service__icon {
+  background: #2e80ce;
+}
+.service__item:hover .service__icon i {
+  color: #fff;
 }
 .service__icon i {
   font-size: 24px;
   color: #10375c;
+}
+.service__info {
+  margin-left: 19px;
+}
+.service__name {
+  color: #10375c;
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+.service__text {
+  margin-top: 8px;
+  color: #575f66;
+  line-height: 175%;
+}
+.service__btn{
+  margin-top: 55px;
 }
