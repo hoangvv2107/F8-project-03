@@ -93,17 +93,6 @@ a {
   color: #fff;
   border-color: #2e80ce;
 }
-/* =====================header=====================*/
-.header {
-  background: #10375c;
-  padding-top: 30px;
-  padding-bottom: 12px;
-}
-.navbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
 .logo {
   display: flex;
   gap: 6px;
@@ -120,6 +109,18 @@ a {
 .logo__text strong {
   font-size: 1.8rem;
   font-weight: 400;
+}
+
+/* =====================header=====================*/
+.header {
+  background: #10375c;
+  padding-top: 30px;
+  padding-bottom: 12px;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .nav {
@@ -571,6 +572,103 @@ a {
   left: 50%;
   transform: translateX(-50%);
 }
-.appointment .btn{
+.appointment .btn {
   margin-top: 38px;
+}
+
+/* =====================footer=====================*/
+.footer {
+  background: #10375c;
+  padding-block: 100px 42px;
+  font-family: "Open Sans", sans-serif;
+}
+.footer .container {
+  display: grid;
+  grid-template-columns: 1fr 0.4fr 0.4fr 1fr;
+  column-gap: 78px;
+}
+.footer__sub-title {
+  margin-top: 21px;
+  color: #a9b3bb;
+  font-weight: 400;
+  line-height: 175%;
+}
+
+.footer__heading {
+  color: #fff;
+  font-weight: 600;
+  line-height: 175%;
+  margin-bottom: 20px;
+}
+.footer__item:not(:first-child) .footer__heading {
+  margin-top: 28px;
+}
+.footer__item {
+  display: flex;
+  flex-direction: column;
+}
+.footer_link {
+  color: #a9b3bb;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 185.714%;
+  white-space: nowrap;
+}
+
+.footer-right__social-list {
+  display: flex;
+  gap: 10px;
+}
+.footer-right__social-item {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: #fff;
+  color: #2e80ce;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all ease 0.2s;
+}
+.footer-right__social-item:hover {
+  background: #2e80ce;
+  color: #fff;
+}
+.footer-right__subscrible {
+  margin-top: 28px;
+}
+.footer-right__desc {
+  width: 273px;
+  color: #a9b3bb;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 185.714%;
+}
+.form {
+  margin-top: 10px;
+  width: 100%;
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+.form__btn {
+  width: 108px;
+  height: 46px;
+  border-radius: 4px;
+  background: #2e80ce;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 185.714%;
+}
+.form__input {
+  padding: 10px;
+  flex: 1;
+  height: 46px;
+  border-radius: 4px;
+  border: 1px solid #406181;
+  color: #9ca8b1;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 185.714%;
 }
