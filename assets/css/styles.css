@@ -672,3 +672,30 @@ a {
   font-weight: 400;
   line-height: 185.714%;
 }
+
+.footer__copyright {
+  padding-top: 28px;
+  margin-top: 28px;
+  width: 1170px;
+  max-width: calc(100% - 48px);
+  margin-inline: auto;
+  position: relative;
+}
+.footer__copyright::before {
+  content: "";
+  display: block;
+  width: 1170px;
+  height: 1px;
+  background: #406181;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+.footer__copyright p {
+  color: #aab3ba;
+  text-align: center;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 185.714%;
+}
